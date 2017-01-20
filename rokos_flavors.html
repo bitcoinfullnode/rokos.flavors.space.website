@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ROKOS Flavors OS for Raspberry Pi and IoT Devices with integrated Altcoins Support</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="ROKOS Flavors is an Open Source Operating System for Raspberry Pi and IoT devices to Stake and use different Cryptocurrencies" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+
+
+<!-- Theme skin -->
+<link href="skins/default.css" rel="stylesheet" />
+<link href="/img/favicon.ico" rel="icon" type="image/ico" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71872638-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://rokos.space"><img src="img/rokos.png" alt="ROKOS"></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Rokos</a></li>
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Info <b class=" icon-angle-down"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://rokos.space">ROKOS Core version</a></li> 
+								<li><a href="flavors.html">ROKOS Flavors version</a></li>
+                                <li><a href="cryptocurrencies.html">Flavors Cryptocurrencies</a></li>
+								<!-- <li><a href="#">Tutorials</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">How to Install <b class=" icon-angle-down"></b></a>
+                            <ul class="dropdown-menu"> 
+                <li><a href="burn_sdcard.html">Burn ROKOS .img to SDcard</a></li>   
+                 <li><a href="rokos_core.html">ROKOS core v7 - Pine64+</a></li>
+ <li><a href="rokos_corepi.html">ROKOS core v7 - Raspberry Pi 2, 3</a></li>
+                                <li><a href="rokos_flavors.html">ROKOS flav v6 - Raspberry Pi z,2,3</a></li>
+								<!-- <li><a href="#">Tutorials</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href="downloads.html">Downloads</a></li>
+						<li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="index.html"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li>How to<i class="icon-angle-right"></i></li>
+					<li class="active">Flavors (Altcoins) for Raspberry Pi</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="content">
+	<div class="container">
+
+	
+<div align="left"><strong>"ROKOS" Flavors for Raspberry Pi zero, 2, 3 - Initial Setup</strong></div>
+<p>&nbsp;</p>
+<div align="left"><strong>Steps for first boot</strong></div>
+<p><br /><br />*Raspberry Pi, zero, 2, 3:<br /><br />ROKOS accounts.<br /><br />User: root / Password: raspberry (use for initial configuration and advanced changes)<br />User: pi / Password: raspberry (main account to use your OS and cryptocurrencies)<br /><br />STEPS:<br /><br />1-&nbsp; &nbsp; Login with username: root&nbsp; /Password: raspberry<br />1.2-&nbsp; Type: dietpi-config<br />1.3-&nbsp; a) Set your network connection details. b) change the root user account password. and restart.<br /><br />2-&nbsp; &nbsp; Login with username: root and the password you just set.<br />2.1- Type: raspi-config <br />2.3-&nbsp; a) Set your Time Zone/Keyboard/Language. b) Change your pi user password. c) Expand the file system, and restart.<br /><br />3-&nbsp; &nbsp; Login with your normal user account: user: pi&nbsp; and the password you just set for it.<br />3.1- Type:&nbsp; "startx"&nbsp; &nbsp;to start the user desktop.<br />Congratulations! your ROKOS system is ready for use.<br /><br /></p>
+<div align="left">Welcome to the <strong>ROKOS</strong> Desktop</div>
+<p>&nbsp;</p>
+<div align="left"><strong>Final steps / BTC and OK Clients</strong></div>
+<p><br />a) Go to <strong>Menu</strong> &gt; <strong>Internet</strong> and Click on your favorite <strong>Cryptocurrency</strong> Wallet<br /><br />This will open the Cryptocurrency wallet and start sync.<br />(make sure you change the datadir location on the config file of your cryptocurrency before starting it if you are saving the chain on external devices)<br /><br />*For some <strong>Cryptocurrencies</strong> the initial sync might take some days, wallets are fully usable after being fully Synchronized.<br /><br /><br /></p>
+<div align="center"><img class="userimg" src="http://i.imgur.com/EwbanzE.png" alt="" border="0" /></div>
+<p><br />b) Always remember to make constant backups of your wallets and save them in USB or external media.<br /><br />Use your wallets in ROKOS to plug HW and mine, Send/Receive, Stake, Share, <br />become a full node and support your favorite Cryptocurrency network, develop new applications,<br />etc, the limit is only in your imagination.<br /><br /><br /><strong>Important Security Notice</strong>: <br />*) Remember to create a backup for your Wallets, you can use the wallets to create them and save in different folders on a USB device.<br />You should ALWAYS have a backup of your wallet, <a class="ul" href="https://www.raspberrypi.org">Raspberry Pi</a> Hardware, Raspbian and ROKOS Software are under development hence not responsible for missuses, electrical or compatibility issues that might cause a loss of information. It is as secure as one's ability to take care for it, same as a computer, so <strong>always</strong> have a <strong>backup</strong> of your wallets on an external device.<br /><br />*) Some people tend to recommend getting a 128Gb MicroSD HC (High speed) , at the same time it does work, I do not recommend this solution, as microSD cards tend to get corrupted by the number of overwrites, to ensure the best functionality and security you should use an external HDD/USB storage device to store the chains.<br /><br /></p>
+<div align="center"><img class="userimg" src="http://i.imgur.com/WHN1JGF.png" alt="" border="0" /></div>
+<p><br />You can start testing and developing new integration with ROKOS and your favorite cryptocurrencies for your IoT projects.<br /><br /></p>
+<div align="center">***********************</div>
+<p>&nbsp;</p>
+
+<p><br />Instructions set updated with v6 Release.<br /><br />ENJOY THIS AWESOME OPERATING SYSTEM!</p></div>
+	</section>
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Join the OK Bitcoin community</h5>
+					<br><a href="https://discord.gg/grvpc8c"> <img alt="Logo" src="https://discordapp.com/api/guilds/213747404745211904/widget.png?style=banner2" width="250px"></a>
+					
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Info</h5>
+					<ul class="link-list">
+						<li><a href="support.html">Support</a></li> 
+                     <li><a href="cryptocurrencies.html">Cryptocurrencies</a></li>
+						<li><a href="downloads.html">Downloads</a></li>
+						<li><a href="http://bitcoin.org" target="_blank">Bitcoin</a></li>
+						<li><a href="http://okcash.co" target="_blank">Okcash</a></li>
+						<li><a href="https://www.pine64.org/" target="_blank">Pine64+</a></li> 
+                        <li><a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Press</h5>
+					<ul class="link-list">
+					    <li><a href="http://techcrunch.com/2016/01/04/the-rokos-core-os-turns-your-raspberry-pi-into-a-bitcoin-node/" target="_blank">TechCrunch.com</a></li>
+					    <li><a href="http://hwagm.elhacker.net/rokos-v4-sistema-operativo-para-ejecutar-un-nodo-de-bitcoin-en-raspberry-pi-2/" target="_blank">elhacker.net</a></li>
+						<li><a href="http://themerkle.com/news/rokos-is-a-free-raspberry-pi-operating-system-to-launch-a-bitcoin-node/" target="_blank">themerkle.com</a></li>
+						<li><a href="http://www.coinfox.ru/novosti/4216-rokos-new-software-to-work-with-bitcoin-2" target="_blank">coinfox.ru</a></li>
+						<li><a href="http://www.diariobitcoin.com/index.php/2015/12/28/conoce-a-rokos-v4-un-nuevo-sistema-operativo-con-nodos-bitcoin-integrados/" target="_blank">diariobitcoin.com</a></li>
+						<li><a href="http://criptonoticias.com/rokos-v4-sistema-operativo-nodo-de-bitcoin-raspberry-pi-2/" target="_blank">criptonoticias.com</a></li>
+						<li><a href="http://kabarlinux.web.id/2015/rokos-v4-distro-untuk-membangun-bitcoin-node/" target="_blank">kabarlinux.web.id</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Open Source</h5>
+					<div>
+						<img src="img/rokos.png" alt="ROKOS">
+					</div>
+					<br /><br />
+					<ul class="social-network">
+						<li><a href="https://twitter.com/BitcoinFullnode/" target="_blank" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-3x"></i></a></li>
+					</ul>
+					<div class="clear">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							<span>&copy; ROKOS 2014-2016 All right reserved. By </span>Oktoshi
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
